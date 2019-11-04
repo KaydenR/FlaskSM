@@ -3,11 +3,12 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>MyFlaskApp</title>
+        <title></title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     </head>
-    <body>
         {% include 'includes/_navbar.html' %}
+        {% include 'includes/_messages.html' %}
+    <body>
         <div class="container">
             {% block body %}{% endblock %}
         </div>

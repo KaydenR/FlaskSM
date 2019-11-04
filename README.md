@@ -1,2 +1,2 @@
 # FlaskProject
-Building basic site to learn flask
+Building basic site to learn flask.
