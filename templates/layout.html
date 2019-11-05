@@ -6,10 +6,10 @@
         <title></title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     </head>
-        {% include 'includes/_navbar.html' %}
-        {% include 'includes/_messages.html' %}
     <body>
-        <div class="container">
+            {% include 'includes/_navbar.html' %}
+        <div class="container" style="padding-top: 4%;">
+            {% include 'includes/_messages.html' %}
             {% block body %}{% endblock %}
         </div>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
